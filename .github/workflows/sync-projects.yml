@@ -24,7 +24,7 @@ jobs:
       - name: Sync Projects
         uses: ./
         with:
-          github-token: "${{ secrets.GITHUB_TOKEN }}"
+          github-token: "${{ secrets.ACCESS_TOKEN }}"
           repo-source: "${{ github.repository }}"
           repo-target: "fabianofernandeszup/repo-qa"
           project-source: "Project Eng"

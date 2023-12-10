@@ -26,8 +26,9 @@ After a card move to first sync column of source project, this need be moved onl
 
 ## Inputs
 
-### `github-token`: `${{ secrets.GITHUB_TOKEN }}`
+### `github-token`: `${{ secrets.ACCESS_TOKEN }}`
 **Required** 
+> This token need write permission in both repositories
 ### `repo-source`: `${{ github.repository  }}`
 **Required**
 ### `repo-target`: `owener/repo`
