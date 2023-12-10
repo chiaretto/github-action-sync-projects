@@ -11,19 +11,16 @@ After a card move to first sync column of source project, this need be moved onl
 > ps: This action only sync card of ISSUE and PULL REQUESTS. DRAFT ISSUES will be not sync.
 
 ### Example Board Project Source
-https://github.com/users/chiaretto/projects/2/views/1
 
 ![Board Image](docs/projeto-eng.png "Board")
 
 
 ### Example Board Project Target
-https://github.com/users/chiaretto/projects/2/views/1
 
 ![Board Image](docs/projeto-qa.png "Board")
 
 
 ### Example Board Project Source Workflow
-https://github.com/users/chiaretto/projects/2/views/1
 
 ![Board Image](docs/workflow.png "Board")
 
