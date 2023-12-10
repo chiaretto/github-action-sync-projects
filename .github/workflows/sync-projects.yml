@@ -26,7 +26,7 @@ jobs:
         with:
           github-token: "${{ secrets.ACCESS_TOKEN }}"
           repo-source: "${{ github.repository }}"
-          repo-target: "fabianofernandeszup/repo-qa"
+          repo-target: "${{ github.repository }}"
           project-source: "Project Eng"
           project-target: "Project QA 📝"
           columns-source: "🏳 - Ready For QA,🧪 - Testing QA,✅ - Ready for Prod"
